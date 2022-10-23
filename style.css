@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+}
+
+.top {
+    padding-bottom: 20px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.category {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #F7F5F4;
+    color: black;
+    cursor: pointer;
+}
+
+.category:hover {
+    background-color: #EDEFF0;
+}
+
+img {
+    width: 350px;
+    border-radius: 10%;
+}
+
